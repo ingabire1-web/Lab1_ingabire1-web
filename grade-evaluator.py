@@ -13,7 +13,7 @@ def load_csv_data():
 
         # --- Check 1: File must exist ---
         if not os.path.exists(filename):
-            print(f"  ✘ File '{filename}' was not found. Please check the name and try again.")
+            print(f"  ✘ File '{filename}' is empty. Please provide a file with data.")
             continue
 
         # --- Check 2: File must not be completely empty ---
